@@ -7,7 +7,7 @@ This project allows the user to:
 2. Determine if such values lead to higher amounts or may lead to equality
 3. Apply it in real life situation involving economics such as ecommerce
 # Planned Features
-Feature 1: Calculate the total revenue of an order
-Feature 2: Find the most expensive item in the order
-Feature 3: Find the cheapest item in the order
-Feature 4:
+1. Feature 1: Calculate the total revenue of an order.
+2. Feature 2: Find the most expensive item in the order.
+3. Feature 3: Find the cheapest item in the order.
+4. 
