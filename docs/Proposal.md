@@ -13,8 +13,9 @@ This project allows the user to:
 4. -Veince-
 5. -Veince
 # Planned Inputs and Outputs
-Inputs - Heshei
-Outputs Dan
+1. Inputs - Heshei
+2. Outputs - Dan
+
 # Logic Plan
 -no logic plan yet-
 
