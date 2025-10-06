@@ -10,8 +10,8 @@ This project allows the user to:
 1. Feature 1: Calculate the total revenue of an order.
 2. Feature 2: Find the most expensive item in the order.
 3. Feature 3: Find the cheapest item in the order.
-4. -Veince-
-5. -Veince
+4. Feature 4: Show the total amount spent by costumer.
+5. Feature 5: Calculate which product was ordered the most based on quantity.
 # Planned Inputs and Outputs
 1. Inputs - Heshei
 2. Outputs - Dan
