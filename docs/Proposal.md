@@ -22,7 +22,8 @@ This project allows the user to:
 7. Input 7: category
 8. Input 8: price
 9. Input 9: quantity
-2. Outputs:
+
+   Outputs:
   - Most sold product
   - Least sold product
   - Average amount of products ordered per table
