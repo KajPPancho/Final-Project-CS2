@@ -14,7 +14,12 @@ This project allows the user to:
 5. Feature 5: Calculate which product was ordered the most based on quantity.
 # Planned Inputs and Outputs
 1. Inputs - Heshei
-2. Outputs - Dan
+2. Outputs:
+  - Most sold product
+  - Least sold product
+  - Average amount of products ordered per table
+  - Average spend per customer
+  - Amount of customers served in a specific time frame
 
 # Logic Plan
 -no logic plan yet-
