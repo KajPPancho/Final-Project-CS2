@@ -10,4 +10,12 @@ This project allows the user to:
 1. Feature 1: Calculate the total revenue of an order.
 2. Feature 2: Find the most expensive item in the order.
 3. Feature 3: Find the cheapest item in the order.
-4. 
+4. -Veince-
+5. -Veince
+# Planned Inputs and Outputs
+Inputs - Heshei
+Outputs Dan
+# Logic Plan
+-no logic plan yet-
+
+
