@@ -13,7 +13,15 @@ This project allows the user to:
 4. Feature 4: Show the total amount spent by costumer.
 5. Feature 5: Calculate which product was ordered the most based on quantity.
 # Planned Inputs and Outputs
-1. Inputs - Heshei
+1. Input 1: order_id
+2. Input 2: customer
+3. Input 3: order_date
+4. Input 4: payment_method
+5. Input 5: shipping_address
+6. Input 6: product
+7. Input 7: category
+8. Input 8: price
+9. Input 9: quantity
 2. Outputs:
   - Most sold product
   - Least sold product
