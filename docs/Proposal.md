@@ -31,6 +31,44 @@ This project allows the user to:
   - Amount of customers served in a specific time frame
 
 # Logic Plan
--no logic plan yet-
 
+(Pseudocode)
 
+START
+
+// Define lists or groups for the inputs.
+DEFINE Order:
+    order_id
+    customer
+    order_date
+    payment_method
+    shipping_address
+    product
+    category
+    price
+    quantity
+
+// Create a list to store all orders.
+DECLARE orders_list as LIST OF Order
+
+// Then, the inputs
+WHILE more orders exist:
+    READ order_id
+    READ customer
+    READ order_date
+    READ payment_method
+    READ shipping_address
+    READ product
+    READ category
+    READ price
+    READ quantity
+    CREATE order_object with above inputs
+    APPEND order_object to orders_list
+
+// Feature 4: Calculate total amount spent by each customer
+DECLARE customer_totals as DICTIONARY
+FOR each order IN orders_list:
+    IF customer_totals[order.customer] EXISTS:
+        customer_totals[order.customer] += order.total_revenue
+    ELSE:
+        customer_totals[order.customer] = order.total_revenue
