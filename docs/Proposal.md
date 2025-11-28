@@ -65,10 +65,21 @@ WHILE more orders exist:
     CREATE order_object with above inputs
     APPEND order_object to orders_list
 
-// Feature 4: Calculate total amount spent by each customer
+// Feature 4
 DECLARE customer_totals as DICTIONARY
 FOR each order IN orders_list:
     IF customer_totals[order.customer] EXISTS:
         customer_totals[order.customer] += order.total_revenue
     ELSE:
         customer_totals[order.customer] = order.total_revenue
+
+// Feature 5
+DECLARE product_quantities as DICTIONARY
+FOR each order IN orders_list:
+    IF product_quantities[order.product] EXISTS:
+        product_quantities[order.product] += order.quantity
+    ELSE:
+        product_quantities[order.product] = order.quantity
+
+most_sold_product = product WITH MAX value in product_quantities
+least_sold_product = product WITH MIN value in product_quantities
