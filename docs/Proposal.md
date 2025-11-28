@@ -36,6 +36,36 @@ This project allows the user to:
 
 START
 
+Feature 1
+// Add the item's subtotal to the running total
+Total\_Revenue = Total\_Revenue + Item\_Subtotal
+
+Feature 2
+// Iterate through all other items to find a higher price.
+FOR EACH Item IN current\_order.items\_list:
+    // Compare the current item's price with the highest price found so far
+    IF Item.price $>$ Most\_Expensive\_Item.price:
+        // Update the most expensive item if the current item is higher
+        Most\_Expensive\_Item = Item
+    END IF
+END FOR
+
+// The final result is stored in Most\_Expensive\_Item.
+DISPLAY "Most Expensive Item (Unit Price):", Most\_Expensive\_Item.product\_name, "at", Most\_Expensive\_Item.price
+
+Feature 3
+// Iterate through all other items to find a lower price.
+FOR EACH Item IN current\_order.items\_list:
+    // Compare the current item's price with the lowest price found so far
+    IF Item.price $<$ Cheapest\_Item.price:
+        // Update the cheapest item if the current item is lower
+        Cheapest\_Item = Item
+    END IF
+END FOR
+
+// The final result is stored in Cheapest\_Item.
+DISPLAY "Cheapest Item (Unit Price):", Cheapest\_Item.product\_name, "at", Cheapest\_Item.price
+
 // Define lists or groups for the inputs.
 DEFINE Order:
     order_id
