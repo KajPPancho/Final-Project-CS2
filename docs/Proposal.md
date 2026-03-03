@@ -12,6 +12,7 @@ This project allows the user to:
 3. Feature 3: Find the cheapest item in the order.
 4. Feature 4: Show the total amount spent by costumer.
 5. Feature 5: Calculate which product was ordered the most based on quantity.
+6. Feature 6: Track how many customers placed multiple orders.
 # Planned Inputs and Outputs
 1. Input 1: order_id
 2. Input 2: customer
